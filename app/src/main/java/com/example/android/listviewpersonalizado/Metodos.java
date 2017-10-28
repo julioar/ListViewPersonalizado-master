@@ -14,7 +14,7 @@ import java.util.Random;
 
 public class Metodos {
     private Resources res;
-
+    private Carro c;
     public static int fotoAleatoria(ArrayList<Integer> fotos){
         int fotoSeleccionada;
         Random r = new Random();

@@ -50,7 +50,7 @@ public class Modificar extends AppCompatActivity {
         txtprecio = (EditText)findViewById(R.id.txtPrecioM);
 
         i = getIntent();
-        bundle = i.getBundleExtra("modificar");
+        bundle = i.getBundleExtra("editar");
         id = bundle.getString("id");
         foto = bundle.getInt("foto");
         placa = bundle.getString("placa");
@@ -60,7 +60,7 @@ public class Modificar extends AppCompatActivity {
         precio = bundle.getString("precio");
 
         carro = new Carro(id, foto, placa, marca, modelo, color, precio);
-
+        reiniciar();
 
     }
 
@@ -108,6 +108,14 @@ public class Modificar extends AppCompatActivity {
             }
         }
 
+    }
+
+    private void reiniciar(){
+        txtplaca.setText(placa);
+        txtmarca.setText(marca);
+        txtmodelo.setText(modelo);
+        txtcolor.setText(color);
+        txtprecio.setText(precio+"");
     }
 
     public void onBackPressed(Carro c){

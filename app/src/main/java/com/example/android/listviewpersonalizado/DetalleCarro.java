@@ -38,7 +38,7 @@ public class DetalleCarro extends AppCompatActivity {
         plac = (TextView)findViewById(R.id.lblPlacaD);
         marc = (TextView)findViewById(R.id.lblMarcaD);
         mod = (TextView)findViewById(R.id.lblModeloD);
-        //col = (TextView)findViewById(R.id.lblColor);
+        col = (TextView)findViewById(R.id.lblColorD);
         pre = (TextView)findViewById(R.id.lblPrecioD);
 
         collapsingToolbarLayout = (CollapsingToolbarLayout)findViewById(R.id.collapsing_toolbar);
@@ -52,7 +52,7 @@ public class DetalleCarro extends AppCompatActivity {
 
         marca = bundle.getString("marca");
         modelo = bundle.getString("modelo");
-        //color = bundle.getString("color");
+        color = bundle.getString("color");
         precio = bundle.getString("precio");
         fot = bundle.getInt("foto");
         id = bundle.getString("id");
@@ -62,7 +62,9 @@ public class DetalleCarro extends AppCompatActivity {
         foto.setImageDrawable(ResourcesCompat.getDrawable(res,fot,null));
         plac.setText(placa);
         marc.setText(marca);
+        col.setText(color);
         mod.setText(modelo);
+
         pre.setText(precio);
 
     }
@@ -104,7 +106,7 @@ public class DetalleCarro extends AppCompatActivity {
         startActivity(i);
     }
 
-    /*public void editar(View v){
+    public void editar(View v){
         Intent i = new Intent(DetalleCarro.this, Modificar.class);
         Bundle b = new Bundle();
         b.putString("id", id);
@@ -117,14 +119,18 @@ public class DetalleCarro extends AppCompatActivity {
 
         i.putExtra("editar",b);
         startActivity(i);
-    }*/
+    }
 
-    public void editarCarro2(View v){
+    /*public void editarCarro2(View v){
         finish();
+
         Intent i = new Intent(DetalleCarro.this, Modificar.class);
         Bundle b = Metodos.crear_bundle(c);
-        i.putExtra("modificar",b);
+        i.putExtra("datos",b);
         startActivity(i);
-    }
+    }*/
+
+
+
 
 }

@@ -16,11 +16,11 @@
     <string name="color">Color</string>
     <string name="modificar">Modificar</string>
     <string name="titulo_eliminar_mensaje">Eliminar Persona</string>
-    <string name="eliminar_mensaje">¿Está seguro que desea elminar a esta persona?</string>
+    <string name="eliminar_mensaje">¿Está seguro que desea elminar a este carro?</string>
     <string name="si_eliminar_mensaje">Si</string>
-    <string name="no_eliminar_mensaje">No</string>
+    <string name="no_eliminar_mensaje" translatable="false">No</string>
     <string name="vacio">Este campo no puede estar vacío</string>
-    <string name="mensaje_exito_modificar">" Carro Modificado"</string>
+    <string name="mensaje_exito_modificar">\"Carro Modificado\"</string>
     <string name="error">Error al intentar Editar</string>
 
     <string-array name="color">

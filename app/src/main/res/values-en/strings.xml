@@ -3,4 +3,23 @@
     <string name="app_name">ListViewPersonalizado</string>
     <string name="guardar">Save</string>
     <string name="limpiar">Clear</string>
+    <string name="blanco">White</string>
+    <string name="color">Color</string>
+    <string name="informacion">Information</string>
+    <string name="negro">Black</string>
+    <string name="rojo">Red</string>
+    <string name="si_eliminar_mensaje">Yes</string>
+    <string name="precio">Price</string>
+    <string name="placa">Brand</string>
+    <string name="modificar">Modify</string>
+    <string name="modelo">Model</string>
+    <string name="mensaje_guardado">Truck Successfully Saved!</string>
+    <string name="mensaje_exito_modificar">" \"Modified Truck\""</string>
+    <string name="marca">Brand</string>
+    <string name="lista">List of cars</string>
+    <string name="error">" Error trying to Edit"</string>
+    <string name="eliminar_mensaje">" Are you sure you want to eliminate this car?"</string>
+    <string name="no_vacio_error">This field can not be blank</string>
+    <string name="titulo_eliminar_mensaje">Delete Person</string>
+    <string name="vacio">This field can not be blank</string>
 </resources>
